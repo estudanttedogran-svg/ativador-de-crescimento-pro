@@ -1,0 +1,162 @@
+Objetivo:
+Criar uma página de vendas premium para o produto Ativador de Crescimento Pro — Spray Capilar Masculino 120ml, com foco em tráfego pago (Meta Ads), alta taxa de conversão e otimização para o público-alvo de homens de 35 a 45 anos, com entradas, coroa rala ou queda de cabelo. O design deve ser elegante, simples e transmitir confiança, sem promessas milagrosas. O conteúdo deve ser direto e informativo.
+
+Estrutura da Página (8 seções):
+
+1. HERO (Primeira Dobra Decisiva):
+
+Texto:
+
+Headline: “Recupere a confiança com resultados reais.”
+
+Subheadline: “Sinta a transformação em até 30 dias com o Ativador de Crescimento Pro.”
+
+Botão CTA: “Quero testar sem pagar agora” (cor laranja queimado: #E67A00)
+
+Selo: “MiniCash — Pague só depois de receber” (verde confiança: #1E8E3E)
+
+Imagem: homem_sério_no_espelho.png (imagem do homem olhando no espelho com expressão séria, luz natural, aparência realista).
+
+2. DOR EMOCIONAL (Espelho):
+
+Texto:
+
+“Entradas e queda de cabelo afetam mais do que a aparência. Eles minam a confiança e aumentam a insegurança.”
+
+Microgancho: “Mas existe um caminho simples e discreto...”
+
+Imagem: homem_aplicando_o_spray.png (imagem do homem preocupado com a queda de cabelo, luz natural).
+
+3. EDUCAÇÃO SIMPLES (Por que isso acontece):
+
+Texto:
+
+“A queda capilar masculina é comum, muitas vezes causada por estresse ou genética. O couro cabeludo enfraquece com o tempo, mas não é culpa sua. O foco do Ativador de Crescimento Pro é fortalecer e estimular o couro cabeludo para resultados naturais e consistentes.”
+
+Imagem: explicacao_simplificada.png (ilustração discreta explicando como o couro cabeludo enfraquece).
+
+4. O PRODUTO (O que é e como funciona):
+
+Texto:
+
+“Ativador de Crescimento Pro é um spray dermocosmético masculino, com aplicação simples e rápida para estimular o crescimento capilar.”
+
+Detalhes:
+
+Spray 120ml.
+
+Aplicação 2x ao dia.
+
+Resultados visíveis em até 30 dias.
+
+Imagem: packshot_do_produto.png (imagem do frasco do produto em alta qualidade).
+
+5. COMO USAR (Simples e Inevitável):
+
+Texto:
+
+“Use em dois momentos do seu dia. 2 minutos para aplicar.”
+
+Passos:
+
+Manhã: Borrife no couro cabeludo.
+
+Noite: Repita o processo.
+
+Consistência por 30 dias.
+
+Imagem: homem_aplicando_o_spray.png (imagem do homem aplicando o spray no couro cabeludo).
+
+6. MINI CASH (Arma Nuclear Central):
+
+Texto:
+
+“Receba primeiro. Pague só depois.”
+
+Bullets:
+
+“Sem risco”
+
+“Sem medo de golpe”
+
+“Você só paga quando o produto chegar”
+
+Imagem: caixa_chegando_em_casa.png (imagem do entregador trazendo a caixa para o cliente).
+
+7. OFERTA + PACOTES (Aumentar Ticket):
+
+Texto:
+
+“Escolha o plano que funciona melhor para você.”
+
+1 unidade — R$137
+
+2 unidades — R$197 ⭐ (Mais escolhido)
+
+3 unidades — R$247 🔥 (Tratamento completo)
+
+CTA em cada card: “Escolher MiniCash ou Pix”
+
+Garantia: “7 dias para testar — risco zero”
+
+Imagem: pacote.png (cards de produto premium para escolher o plano).
+
+8. FAQ + QUEBRA DE OBJEÇÕES + CTA FINAL:
+
+FAQ:
+
+Funciona para todo homem?
+
+Em quanto tempo vejo sinais?
+
+Como funciona o MiniCash?
+
+Tem garantia?
+
+Como chega o produto?
+
+Texto Final:
+
+Headline: “Comece hoje sem risco.”
+
+Botão Final: “Quero receber primeiro e pagar depois” (botão grande)
+
+Rodapé: Limpo, sem distrações, com links para políticas e informações legais.
+
+Direção Visual e Paleta de Cores:
+
+Background: #F8F8F8
+
+Texto Principal: #111111
+
+CTA: #E67A00 (laranja queimado)
+
+Detalhes Premium: #4A2C1A (marrom escuro)
+
+Verde Confiança (MiniCash): #1E8E3E
+
+Imagens Necessárias:
+
+homem_sério_no_espelho.png — Imagem do homem sério no espelho (espelho, insegurança).
+
+homem_aplicando_o_spray.png — Imagem do homem aplicando o spray no cabelo.
+
+packshot_do_produto.png — Imagem do spray (packshot do produto).
+
+caixa_chegando_em_casa.png — Imagem do entregador entregando a caixa.
+
+antes.png — Imagem do “antes” do cabelo do homem.
+
+depois.png — Imagem do “depois” do cabelo revitalizado (com transformação).
+
+homem_confiante_depois_do_uso.png — Imagem do homem confiante após o uso do produto.
+
+Instruções para Desenvolvimento:
+
+Formato da Página: A página deve ser longa, com cada seção bem espaçada para criar um funil de vendas otimizado.
+
+Estrutura das Seções: Cada bloco deve ser claramente definido, com botões de CTA repetidos nas seções estratégicas.
+
+Imagens: Certifique-se de que as imagens mencionadas sejam integradas conforme suas descrições. Utilize lazy loading para as imagens para otimizar o tempo de carregamento.
+
+Responsividade: A página deve ser responsiva e funcionar bem em dispositivos móveis, com ajustes feitos através de CSS media queries.
