@@ -306,7 +306,7 @@ const LandingPage = () => {
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#E67A00] flex items-center justify-center font-serif text-xl border-none">3</div>
                   <div>
                     <h4 className="text-xl font-bold mb-2">Consistência</h4>
-                    <p className="text-white/70">Mantenha por 30 dias para ver a mágica acontecer.</p>
+                    <p className="text-white/70">Mantenha as aplicações por 30 dias para ver a mágica acontecer.</p>
                   </div>
                 </div>
               </div>
@@ -369,7 +369,7 @@ const LandingPage = () => {
       <section id="offer" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold mb-4 text-[#111111]">Escolha o plano ideal</h2>
+            <h2 className="text-4xl font-serif font-bold mb-4 text-[#111111]">Escolha o Plano Ideal</h2>
             <p className="text-gray-600">Invista na sua confiança com condições exclusivas.</p>
           </div>
 
@@ -389,7 +389,7 @@ const LandingPage = () => {
                 <img src={pack1} alt="1 Frasco" className="h-48 object-contain mx-auto mb-8" />
                 <div className="mt-auto">
                   <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                    Escolher MiniCash
+                    Garanta o Seu Agora
                   </Button>
                 </div>
               </CardContent>
@@ -415,7 +415,7 @@ const LandingPage = () => {
                 </div>
                 <div className="mt-auto">
                   <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
-                    Escolher MiniCash
+                    Garanta o Seu Agora
                   </Button>
                 </div>
               </CardContent>
@@ -438,7 +438,7 @@ const LandingPage = () => {
                 </div>
                 <div className="mt-auto">
                   <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                    Escolher MiniCash
+                    Garanta o Seu Agora
                   </Button>
                 </div>
               </CardContent>
