@@ -1,0 +1,97 @@
+Objetivo: Modificar o título da página para "PAGUE SÓ DEPOIS DE RECEBER", com animação e ícones específicos.
+
+Título com Texto em Maiúsculas:
+
+A frase "PAGUE SÓ DEPOIS DE RECEBER" deve ser toda em maiúsculas, com as letras bem destacadas.
+
+O título deve ser animado para piscar suavemente (efeito de animação sutil de opacidade), com uma transição de 3 segundos, repetindo infinitamente.
+
+Posicionamento do Título:
+
+Coloque o título no topo da página, logo abaixo da barra de navegação (se houver), de forma centralizada.
+
+Ícones:
+
+Ícone de Verificação (Escudo Verde): Coloque um ícone de escudo verde (✅) à esquerda da palavra "PAGUE".
+
+Ícone de Caminhão de Entrega: Coloque o emoji de caminhão de entrega (🚚) à direita de "RECEBER" para indicar entrega.
+
+Efeito de Animação:
+
+O título deve ter uma animação sutil, fazendo com que ele "pisque" suavemente, alterando a opacidade de 0.5 a 1 (e de volta a 0.5), com uma duração de 3 segundos e repetindo infinitamente.
+
+Ajustar o Subtítulo:
+
+O subtítulo "Recupere a confiança com resultados reais" deve ser ajustado para um pouco mais alto na página, logo abaixo do novo título, para criar um visual mais dinâmico e espaçado.
+
+Objetivo: Substituir os ícones de bolinhas no trecho "Mais de 12.000 homens confiam" com as imagens dos homens enviadas, respeitando a ordem das imagens e posicionando cada uma ao lado da frase de maneira apropriada.
+
+Prompt 1:
+
+"Substitua os ícones de bolinhas por imagens dos rostos dos homens nas seções 'Mais de 12.000 homens confiam'. Use as imagens nas seguintes posições:
+
+Imagem 01 deve ser colocada ao lado da primeira bolinha.
+
+Imagem 02 deve ser colocada ao lado da segunda bolinha.
+
+Imagem 03 deve ser colocada ao lado da terceira bolinha.
+
+Imagem 04 deve ser colocada ao lado da quarta bolinha."
+
+Objetivo: Substituir a imagem única atual do homem aplicando o spray no cabelo com duas imagens, sendo uma do homem sem boné e outra do homem com boné, e adicionar uma seta vetorial entre as imagens, simbolizando a insegurança de usar boné.
+
+Instruções para a Replit:
+
+Substituir a imagem atual do homem aplicando o spray no cabelo por duas imagens:
+
+A primeira imagem deve mostrar o homem sem boné (arquivo sem_bone.png), olhando para a câmera com uma expressão séria e natural. A imagem deve ser posicionada à esquerda.
+
+A segunda imagem deve mostrar o homem com boné (arquivo com_bone.png), com uma expressão um pouco mais desconfortável ou pensativa, simbolizando a insegurança. A imagem deve ser posicionada à direita.
+
+Adicionar uma seta vetorial entre as imagens, apontando de uma para outra. A seta deve ser de duas pontas, indicando a alternância entre o momento com boné e o momento sem boné. A seta deve ser discreta e estar alinhada entre as duas imagens.
+
+Texto:
+
+Manter o texto explicativo ao lado das imagens: "Entradas e queda de cabelo afetam mais do que a aparência. Eles minam a confiança e aumentam a insegurança a cada dia que passa. Você começa a evitar fotos, usa bonés com mais frequência e sente que perdeu uma parte de quem você é."
+
+A citação "Mas existe um caminho simples, discreto e eficaz para retomar o controle." deve continuar logo abaixo, mantendo o estilo e formato atual.
+
+Objetivo: Substituir a imagem de homem borrifando o spray no cabelo no bloco 'O espelho não deveria ser seu inimigo' por duas imagens: uma do homem sem boné e outra do homem com boné.
+
+Prompt Detalhado em Texto para a Replit:
+
+"Substitua a imagem atual do homem aplicando o spray no cabelo na seção 'O espelho não deveria ser seu inimigo' por duas imagens:
+
+A primeira imagem deve mostrar o homem sem boné (arquivo sem_bone.png) olhando para a câmera com uma expressão séria, e deve estar posicionada à esquerda.
+
+A segunda imagem deve mostrar o homem com boné (arquivo com_bone.png) com uma expressão mais desconfortável ou pensativa, e deve estar posicionada à direita.
+
+Adicione uma seta vetorial entre as duas imagens, com duas pontas, para simbolizar a alternância entre o homem sem boné e com boné.
+
+O texto explicativo deve ser mantido ao lado das imagens, e a citação 'Mas existe um caminho simples, discreto e eficaz para retomar o controle.' deve permanecer abaixo da seção."
+
+Bloco: "Escolha o plano ideal"
+
+Alterações a serem feitas:
+
+Iniciante (1 Unidade - R$137):
+
+Imagem: "packshot_do_produto_1.png"
+
+Substituir a imagem atual de 1 unidade por esta imagem (um frasco do produto).
+
+Tratamento Recomendado (2 Unidades - R$197):
+
+Imagem: "packshot_do_produto_2.png"
+
+Substituir a imagem atual de 2 unidades por esta imagem, com dois frascos alinhados (do lado a lado).
+
+Completo (3 Unidades - R$247):
+
+Imagem: "packshot_do_produto_3.png"
+
+Substituir a imagem atual de 3 unidades por esta imagem, com três frascos alinhados (do lado a lado).
+
+Observação:
+
+Certifique-se de que a Replit substitua as imagens corretamente nas posições descritas acima, sem deixar de lado os ajustes de alinhamento dos frascos, ou seja, as imagens de duas unidades devem ter dois frascos ao lado, e a de três unidades devem ter três frascos.

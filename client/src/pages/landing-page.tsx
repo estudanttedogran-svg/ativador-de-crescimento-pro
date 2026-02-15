@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Check, ShieldCheck, Star, Truck, ArrowRight, ChevronDown, Clock } from "lucide-react";
+import { Check, ShieldCheck, Star, Truck, ArrowRight, ChevronDown, Clock, MoveHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -19,6 +19,17 @@ import beforeImg from "@assets/antes.png_1771032509259.jpeg";
 import afterImg from "@assets/depois.png_1771032517292.png";
 import confidentImg from "@assets/homem_confiante_depois_do_uso.png_1771032531880.png";
 
+// New Assets
+import face1 from "@assets/Imagem_1_1771174080222.jpeg";
+import face2 from "@assets/Imagem_2_1771174080222.png";
+import face3 from "@assets/Imagem_3_1771174080220.jpeg";
+import face4 from "@assets/Imagem_4_1771174080221.png";
+import noCap from "@assets/sem_bone.png_1771174101364.png";
+import withCap from "@assets/com_bone.png_1771174104495.png";
+import pack1 from "@assets/packshot_do_produto_1.png_1771174124701.png";
+import pack2 from "@assets/packshot_do_produto_2.png_1771174124702.png";
+import pack3 from "@assets/packshot_do_produto_3.png_1771174124703.png";
+
 const LandingPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,7 +43,23 @@ const LandingPage = () => {
     <div className="min-h-screen bg-[#F8F8F8] text-[#111111] overflow-x-hidden font-sans">
       
       {/* 1. HERO SECTION */}
-      <section className="relative pt-16 pb-20 md:pt-24 md:pb-32 px-4 overflow-hidden">
+      <section className="relative pt-8 pb-20 md:pt-12 md:pb-32 px-4 overflow-hidden">
+        <div className="max-w-6xl mx-auto flex flex-col items-center mb-12">
+            <motion.div
+                animate={{ opacity: [0.5, 1, 0.5] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                className="flex items-center justify-center gap-3 text-center mb-6"
+            >
+                <div className="bg-[#1E8E3E] text-white p-1 rounded-full">
+                    <Check className="w-5 h-5 md:w-6 md:h-6" strokeWidth={3} />
+                </div>
+                <h1 className="text-2xl md:text-4xl font-bold uppercase tracking-wider text-[#111111]">
+                    PAGUE SÓ DEPOIS DE RECEBER
+                </h1>
+                <div className="text-2xl md:text-3xl">🚚</div>
+            </motion.div>
+        </div>
+
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 relative z-10">
             <motion.div 
@@ -40,14 +67,10 @@ const LandingPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#1E8E3E]/10 text-[#1E8E3E] rounded-full text-sm font-semibold mb-6 border border-[#1E8E3E]/20">
-                <ShieldCheck className="w-4 h-4" />
-                MiniCash — Pague só depois de receber
-              </div>
-              <h1 className="text-4xl md:text-6xl font-serif font-bold leading-[1.1] text-[#111111] tracking-tight">
+              <h2 className="text-4xl md:text-6xl font-serif font-bold leading-[1.1] text-[#111111] tracking-tight">
                 Recupere a confiança com resultados reais.
-              </h1>
-              <p className="text-xl text-gray-600 leading-relaxed max-w-md">
+              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed max-w-md mt-6">
                 Sinta a transformação em até 30 dias com o Ativador de Crescimento Pro.
               </p>
             </motion.div>
@@ -67,15 +90,14 @@ const LandingPage = () => {
             </motion.div>
 
             <div className="flex items-center gap-4 text-sm text-gray-500">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full bg-gray-200 border-2 border-white flex items-center justify-center text-xs overflow-hidden">
-                     {/* Avatars would go here, using gray circles for now */}
-                     <span className="bg-gray-300 w-full h-full"></span>
+              <div className="flex -space-x-3">
+                {[face1, face2, face3, face4].map((face, i) => (
+                  <div key={i} className="w-10 h-10 rounded-full border-2 border-white overflow-hidden shadow-sm">
+                     <img src={face} alt="Cliente" className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>
-              <p>Mais de 12.000 homens confiam.</p>
+              <p className="font-medium">Mais de 12.000 homens confiam.</p>
             </div>
           </div>
 
@@ -111,12 +133,30 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative">
-              <div className="absolute -inset-4 bg-[#4A2C1A]/5 rounded-2xl transform -rotate-3"></div>
-              <img 
-                src={painImg} 
-                alt="Homem preocupado aplicando spray" 
-                className="rounded-xl shadow-lg w-full relative z-10"
-              />
+                <div className="flex items-center justify-center gap-4 relative z-10">
+                    <div className="relative w-1/2">
+                        <img 
+                            src={noCap} 
+                            alt="Sem boné" 
+                            className="rounded-xl shadow-lg w-full object-cover aspect-[3/4]"
+                        />
+                         <div className="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Realidade</div>
+                    </div>
+                    
+                    <div className="text-[#4A2C1A]">
+                        <MoveHorizontal className="w-8 h-8 md:w-12 md:h-12" strokeWidth={1.5} />
+                    </div>
+
+                    <div className="relative w-1/2">
+                        <img 
+                            src={withCap} 
+                            alt="Com boné" 
+                            className="rounded-xl shadow-lg w-full object-cover aspect-[3/4]"
+                        />
+                         <div className="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Esconderijo</div>
+                    </div>
+                </div>
+              <div className="absolute -inset-4 bg-[#4A2C1A]/5 rounded-2xl transform -rotate-1 z-0"></div>
             </div>
             <div className="order-1 md:order-2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#111111]">
@@ -348,7 +388,7 @@ const LandingPage = () => {
                    <div className="text-4xl font-bold text-[#111111]">R$ 137</div>
                    <div className="text-sm text-gray-400 mt-2">À vista ou parcelado</div>
                 </div>
-                <img src={productImg} alt="1 Frasco" className="h-32 object-contain mx-auto mb-8" />
+                <img src={pack1} alt="1 Frasco" className="h-48 object-contain mx-auto mb-8" />
                 <div className="mt-auto">
                   <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
                     Escolher MiniCash
@@ -373,8 +413,7 @@ const LandingPage = () => {
                    <div className="text-sm text-[#E67A00]/70 mt-2 font-medium">Economize R$ 77</div>
                 </div>
                 <div className="flex justify-center mb-8 relative">
-                   <img src={productImg} alt="1 Frasco" className="h-40 object-contain translate-x-4" />
-                   <img src={productImg} alt="1 Frasco" className="h-40 object-contain -translate-x-4" />
+                   <img src={pack2} alt="2 Frascos" className="h-56 object-contain" />
                 </div>
                 <div className="mt-auto">
                   <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
@@ -398,9 +437,7 @@ const LandingPage = () => {
                    <div className="text-sm text-gray-400 mt-2">Melhor custo-benefício</div>
                 </div>
                 <div className="flex justify-center mb-8">
-                   <img src={productImg} alt="1 Frasco" className="h-32 object-contain translate-x-8" />
-                   <img src={productImg} alt="1 Frasco" className="h-32 object-contain z-10" />
-                   <img src={productImg} alt="1 Frasco" className="h-32 object-contain -translate-x-8" />
+                   <img src={pack3} alt="3 Frascos" className="h-48 object-contain" />
                 </div>
                 <div className="mt-auto">
                   <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
