@@ -388,9 +388,11 @@ const LandingPage = () => {
                 </div>
                 <img src={pack1} alt="1 Frasco" className="h-48 object-contain mx-auto mb-8" />
                 <div className="mt-auto">
-                  <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                    Garanta o Seu Agora
-                  </Button>
+                  <a href="https://app.coinzz.com.br/checkout/1-unidade-57iea-0" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
+                      Garanta o Seu Agora
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -414,9 +416,11 @@ const LandingPage = () => {
                    <img src={pack2} alt="2 Frascos" className="h-56 object-contain" />
                 </div>
                 <div className="mt-auto">
-                  <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
-                    Garanta o Seu Agora
-                  </Button>
+                  <a href="https://app.coinzz.com.br/checkout/2-unidades-lhjtl-0" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
+                      Garanta o Seu Agora
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -437,9 +441,11 @@ const LandingPage = () => {
                    <img src={pack3} alt="3 Frascos" className="h-48 object-contain" />
                 </div>
                 <div className="mt-auto">
-                  <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                    Garanta o Seu Agora
-                  </Button>
+                  <a href="https://app.coinzz.com.br/checkout/3-unidades-h1mib-0" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
+                      Garanta o Seu Agora
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
