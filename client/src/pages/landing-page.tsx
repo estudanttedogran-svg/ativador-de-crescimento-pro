@@ -48,10 +48,10 @@ const LandingPage = () => {
             <motion.div
                 animate={{ opacity: [0.5, 1, 0.5] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="flex items-center justify-center gap-3 text-center mb-6"
+                className="flex items-center justify-center gap-3 text-center mb-6 bg-[#EBE5D9] px-6 py-2 rounded-full shadow-sm"
             >
-                <div className="bg-[#1E8E3E] text-white p-1 rounded-full">
-                    <Check className="w-5 h-5 md:w-6 md:h-6" strokeWidth={3} />
+                <div className="text-[#1E8E3E]">
+                    <ShieldCheck className="w-6 h-6 md:w-8 md:h-8" fill="#1E8E3E" color="white" strokeWidth={2} />
                 </div>
                 <h1 className="text-2xl md:text-4xl font-bold uppercase tracking-wider text-[#111111]">
                     PAGUE SÓ DEPOIS DE RECEBER
@@ -140,7 +140,6 @@ const LandingPage = () => {
                             alt="Sem boné" 
                             className="rounded-xl shadow-lg w-full object-cover aspect-[3/4]"
                         />
-                         <div className="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Realidade</div>
                     </div>
                     
                     <div className="text-[#4A2C1A]">
@@ -153,7 +152,6 @@ const LandingPage = () => {
                             alt="Com boné" 
                             className="rounded-xl shadow-lg w-full object-cover aspect-[3/4]"
                         />
-                         <div className="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded">Esconderijo</div>
                     </div>
                 </div>
               <div className="absolute -inset-4 bg-[#4A2C1A]/5 rounded-2xl transform -rotate-1 z-0"></div>
@@ -419,7 +417,6 @@ const LandingPage = () => {
                   <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
                     Escolher MiniCash
                   </Button>
-                  <p className="text-center text-xs text-gray-500">Frete Grátis incluso</p>
                 </div>
               </CardContent>
             </Card>
@@ -448,10 +445,14 @@ const LandingPage = () => {
             </Card>
           </div>
 
-          <div className="text-center mt-12 text-gray-500 text-sm flex items-center justify-center gap-2">
-            <ShieldCheck className="w-4 h-4" />
+          <motion.div 
+            animate={{ opacity: [0.5, 1, 0.5] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            className="text-center mt-12 text-[#1E8E3E] text-base font-bold flex items-center justify-center gap-2"
+          >
+            <ShieldCheck className="w-5 h-5" />
             Garantia de 7 dias para testar — risco zero
-          </div>
+          </motion.div>
         </div>
       </section>
 
