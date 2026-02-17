@@ -71,7 +71,7 @@ const LandingPage = () => {
                 Recupere a confiança com resultados reais.
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed max-w-md mt-6">
-                Sinta a transformação em até 30 dias com o Ativador de Crescimento Pro.
+                Sinta a transformação nos primeiros 30 dias com o Ativador de Crescimento Pro.
               </p>
             </motion.div>
 
@@ -395,7 +395,7 @@ const LandingPage = () => {
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/1-unidade-57iea-0" target="_blank" rel="noopener noreferrer">
                     <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3" data-testid="button-checkout-1">
-                      Aproveite agora e comece a transformação!
+                      Garanta o Seu Agora
                     </Button>
                   </a>
                 </div>
@@ -425,7 +425,7 @@ const LandingPage = () => {
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/2-unidades-lhjtl-0" target="_blank" rel="noopener noreferrer">
                     <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20" data-testid="button-checkout-2">
-                      Aproveite agora e comece a transformação!
+                      Garanta o Seu Agora
                     </Button>
                   </a>
                 </div>
@@ -452,7 +452,7 @@ const LandingPage = () => {
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/3-unidades-h1mib-0" target="_blank" rel="noopener noreferrer">
                     <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3" data-testid="button-checkout-3">
-                      Aproveite agora e comece a transformação!
+                      Garanta o Seu Agora
                     </Button>
                   </a>
                 </div>
