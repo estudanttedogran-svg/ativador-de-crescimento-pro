@@ -291,22 +291,22 @@ const LandingPage = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full border border-white/20 flex items-center justify-center font-serif text-xl">1</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Aplicação Noturna</h4>
-                    <p className="text-white/70">Borrife uma vez nas áreas afetadas do couro cabeludo antes de dormir. O produto age enquanto você descansa.</p>
+                    <h4 className="text-xl font-bold mb-2">Manhã</h4>
+                    <p className="text-white/70">Comece o dia aplicando o spray diretamente no couro cabeludo nas áreas afetadas pela queda de cabelo. Massageie suavemente por alguns segundos para garantir que o produto seja bem absorvido.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full border border-white/20 flex items-center justify-center font-serif text-xl">2</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Consistência</h4>
-                    <p className="text-white/70">Mantenha a aplicação todas as noites por 30 dias para resultados visíveis. Lembre-se, uma borrifada por área é suficiente.</p>
+                    <h4 className="text-xl font-bold mb-2">Noite</h4>
+                    <p className="text-white/70">Antes de dormir, repita o processo, aplicando novamente o spray nas mesmas áreas e fazendo uma leve massagem no couro cabeludo.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#E67A00] flex items-center justify-center font-serif text-xl border-none">3</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Acompanhamento e Resultados</h4>
-                    <p className="text-white/70">Continue aplicando o produto todas as noites para garantir que o tratamento tenha a eficácia total. Não interrompa o uso, mesmo se notar melhorias antes do final de 30 dias.</p>
+                    <h4 className="text-xl font-bold mb-2">Consistência é a chave para o sucesso</h4>
+                    <p className="text-white/70">Para alcançar resultados visíveis, é importante seguir esse ritual diariamente, durante 30 dias. Esse tempo permite que o produto ative o crescimento capilar de forma eficaz e natural.</p>
                   </div>
                 </div>
               </div>
