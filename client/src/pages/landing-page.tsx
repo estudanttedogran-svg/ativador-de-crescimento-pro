@@ -291,22 +291,22 @@ const LandingPage = () => {
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full border border-white/20 flex items-center justify-center font-serif text-xl">1</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Manhã</h4>
-                    <p className="text-white/70">Borrife no couro cabeludo nas áreas afetadas logo após o banho ou ao acordar.</p>
+                    <h4 className="text-xl font-bold mb-2">Aplicação Noturna</h4>
+                    <p className="text-white/70">Borrife uma vez nas áreas afetadas do couro cabeludo antes de dormir. O produto age enquanto você descansa.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full border border-white/20 flex items-center justify-center font-serif text-xl">2</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Noite</h4>
-                    <p className="text-white/70">Repita o processo antes de dormir. O produto age enquanto você descansa.</p>
+                    <h4 className="text-xl font-bold mb-2">Consistência</h4>
+                    <p className="text-white/70">Mantenha a aplicação todas as noites por 30 dias para resultados visíveis. Lembre-se, uma borrifada por área é suficiente.</p>
                   </div>
                 </div>
                 <div className="flex gap-6">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#E67A00] flex items-center justify-center font-serif text-xl border-none">3</div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2">Consistência</h4>
-                    <p className="text-white/70">Mantenha as aplicações por 30 dias para ver a mágica acontecer.</p>
+                    <h4 className="text-xl font-bold mb-2">Acompanhamento e Resultados</h4>
+                    <p className="text-white/70">Continue aplicando o produto todas as noites para garantir que o tratamento tenha a eficácia total. Não interrompa o uso, mesmo se notar melhorias antes do final de 30 dias.</p>
                   </div>
                 </div>
               </div>
@@ -371,6 +371,10 @@ const LandingPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold mb-4 text-[#111111]">Escolha o Plano Ideal</h2>
             <p className="text-gray-600">Invista na sua confiança com condições exclusivas.</p>
+            <div className="mt-4 inline-flex items-center gap-2 bg-red-50 border border-red-200 text-red-700 px-5 py-2.5 rounded-full text-sm font-semibold animate-pulse">
+              <Clock className="w-4 h-4" />
+              Estoque limitado — Garanta o seu antes que acabe!
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -382,15 +386,16 @@ const LandingPage = () => {
                   <h3 className="text-2xl font-bold mt-2">1 Unidade</h3>
                   <p className="text-gray-500 text-sm mt-1">Para testar a adaptação</p>
                 </div>
-                <div className="mb-8">
+                <div className="mb-4">
                    <div className="text-4xl font-bold text-[#111111]">R$ 137</div>
                    <div className="text-sm text-gray-400 mt-2">À vista ou parcelado</div>
                 </div>
+                <p className="text-sm text-gray-500 mb-6 leading-relaxed">Melhora a densidade e força do cabelo com o uso contínuo.</p>
                 <img src={pack1} alt="1 Frasco" className="h-48 object-contain mx-auto mb-8" />
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/1-unidade-57iea-0" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                      Garanta o Seu Agora
+                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3" data-testid="button-checkout-1">
+                      Aproveite agora e comece a transformação!
                     </Button>
                   </a>
                 </div>
@@ -406,19 +411,21 @@ const LandingPage = () => {
                 <div className="mb-6">
                   <span className="text-sm font-semibold text-[#E67A00] uppercase tracking-wide">Tratamento Recomendado</span>
                   <h3 className="text-2xl font-bold mt-2">2 Unidades</h3>
-                  <p className="text-gray-500 text-sm mt-1">Foco em preenchimento</p>
+                  <p className="text-gray-500 text-sm mt-1">Foco em preenchimento — Ideal para quem deseja manter resultados visíveis.</p>
                 </div>
-                <div className="mb-8">
+                <div className="mb-4">
                    <div className="text-4xl font-bold text-[#E67A00]">R$ 197</div>
                    <div className="text-sm text-[#E67A00]/70 mt-2 font-medium">Economize R$ 77</div>
                 </div>
+                <p className="text-sm text-[#E67A00]/80 mb-2 font-medium">Aproveite a oferta mais popular agora!</p>
+                <p className="text-sm text-gray-500 mb-6 leading-relaxed">Melhora a densidade e força do cabelo com o uso contínuo.</p>
                 <div className="flex justify-center mb-8 relative">
                    <img src={pack2} alt="2 Frascos" className="h-56 object-contain" />
                 </div>
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/2-unidades-lhjtl-0" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20">
-                      Garanta o Seu Agora
+                    <Button className="w-full bg-[#E67A00] hover:bg-[#d56b00] text-white py-6 rounded-lg font-bold text-lg mb-3 shadow-lg shadow-[#E67A00]/20" data-testid="button-checkout-2">
+                      Aproveite agora e comece a transformação!
                     </Button>
                   </a>
                 </div>
@@ -431,19 +438,21 @@ const LandingPage = () => {
                 <div className="mb-6">
                   <span className="text-sm font-semibold text-gray-500 uppercase tracking-wide">Completo</span>
                   <h3 className="text-2xl font-bold mt-2">3 Unidades</h3>
-                  <p className="text-gray-500 text-sm mt-1">Tratamento intensivo 🔥</p>
+                  <p className="text-gray-500 text-sm mt-1">Tratamento intensivo — O melhor custo-benefício para resultados rápidos e duradouros. 🔥</p>
                 </div>
-                <div className="mb-8">
+                <div className="mb-4">
                    <div className="text-4xl font-bold text-[#111111]">R$ 247</div>
                    <div className="text-sm text-gray-400 mt-2">Melhor custo-benefício</div>
                 </div>
+                <p className="text-sm text-gray-500 mb-2 leading-relaxed">Melhora a densidade e força do cabelo com o uso contínuo.</p>
+                <p className="text-sm text-[#4A2C1A] font-medium mb-6">O melhor para um tratamento completo e duradouro.</p>
                 <div className="flex justify-center mb-8">
                    <img src={pack3} alt="3 Frascos" className="h-48 object-contain" />
                 </div>
                 <div className="mt-auto">
                   <a href="https://app.coinzz.com.br/checkout/3-unidades-h1mib-0" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3">
-                      Garanta o Seu Agora
+                    <Button className="w-full bg-white border-2 border-[#111111] text-[#111111] hover:bg-gray-50 py-6 rounded-lg font-semibold mb-3" data-testid="button-checkout-3">
+                      Aproveite agora e comece a transformação!
                     </Button>
                   </a>
                 </div>
